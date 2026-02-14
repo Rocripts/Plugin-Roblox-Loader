@@ -48,16 +48,17 @@ you can make your own unique Id
 Name = nil, 
 ```
 Plugin Title
-
+<!-- ═══════════════════════════════════════ -->
 ```lua
 Desc = nil, 
 ```
 Plugin Description
-
+<!-- ═══════════════════════════════════════ -->
 ```lua
 Author = nil, 
 ```
 Creator of the plugin
+<!-- ═══════════════════════════════════════ -->
 ```lua
 Version = nil, 
 ```
