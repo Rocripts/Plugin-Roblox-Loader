@@ -63,3 +63,13 @@ Creator of the plugin
 Version = nil, 
 ```
 Version needs to be a number, and you can only pick 1-3, beyond that will cause error
+
+```lua
+Script = nil, 
+``` 
+Your script, Needs to be loadstring with raw url, 
+
+```lua
+Note = nil, 
+```
+here where you can left a note to the Users
