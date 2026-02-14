@@ -44,6 +44,21 @@ Id = nil,
 ```
 you can make your own unique Id
 
-```editable
-hi
+```lua
+Name = nil, 
 ```
+Plugin Title
+
+```lua
+Desc = nil, 
+```
+Plugin Description
+
+```lua
+Author = nil, 
+```
+Creator of the plugin
+```lua
+Version = nil, 
+```
+Version needs to be a number, and you can only pick 1-3, beyond that will cause error
