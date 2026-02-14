@@ -36,3 +36,10 @@ if Plugin.Id == nil then
   return
 end
 ```
+
+**Explanation About The Field**
+
+```lua
+Id = nil,
+```
+you can make your own unique Id
