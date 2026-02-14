@@ -58,7 +58,7 @@ Plugin Description
 Author = nil, 
 ```
 Creator of the plugin
-<!-- ═══════════════════════════════════════ -->
+<! ═══════════════════════════════════════>
 ```lua
 Version = nil, 
 ```
