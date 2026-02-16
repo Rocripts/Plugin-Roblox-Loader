@@ -71,23 +71,23 @@ Put This Inside that heavily Recommended.. :
 
 ServerScriptService
 hides it from Exploiter to access
- --
+
 Like ServerScriptService, it is invisible to players. It’s great for storing data that doesn't need to "run" immediately upon the game starting.
- --
+
  • most recommended
 
 ServerStorage
 only if you want to make a templates that other scripts pull from
- --
+ 
  • conditional 
 
 ReplicatedStorage
 Everything in ReplicatedStorage is downloaded to every player's computer. An exploiter can easily read your Metadata lua table, find your Script URL, and steal your source code.
- --
+ 
  • Only use this if the Metadata is something you want the player's UI to see (like a "Script Credits" menu). 
 
 
 StarterPlayerScripts or StarterGUI
 These are Client-Side locations. Your loader uses game:HttpGet, which will crash if run from the client. Roblox blocks these functions on the player's side to prevent them from making unauthorized web requests.
- --
+
  • Never! 
